@@ -475,7 +475,7 @@ function main() {
             _react2.default.createElement(
                 "button",
                 { className: "btn-link", type: "button" },
-                _react2.default.createElement("img", { className: "linkedin", src: "./linkedin.png" }),
+                _react2.default.createElement("img", { className: "linkedin", src: "linkedin.png" }),
                 " ",
                 _react2.default.createElement(
                     "a",
@@ -541,7 +541,7 @@ function Nav() {
     return _react2.default.createElement(
         "nav",
         null,
-        _react2.default.createElement("img", { src: "./photo.jpg", className: "img-me" })
+        _react2.default.createElement("img", { src: "photo.jpg", className: "img-me" })
     );
 }
 
