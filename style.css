@@ -4,10 +4,22 @@
     box-sizing: border-box;
 }
 
+html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 body{
     background-color: #23252C;
     width: 80%;
     align-content: center;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .body-react{
@@ -41,6 +53,9 @@ nav{
     display: flex;   
     justify-content: space-evenly;
     align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 80%;
 }
 
 .title{
@@ -50,6 +65,14 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;   
+    width: 90%;
+    overflow: auto;
+    margin-bottom: 40px;
+}
+
+.h3{
+    margin: 10px 0px;
+    float: right;
 }
 
 .title h1{
@@ -70,13 +93,17 @@ nav{
 .btn-link{
     margin-top: 20px;
     margin-bottom: 40px;
-    width: 300px;
+    width: 40%;
     height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
     border: transparent;
+}
+
+.btn-link a{
+    color: black;
 }
 
 .linkedin{
@@ -86,10 +113,3 @@ nav{
 }
 
 
-.about{
-    width: 80%;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-}
