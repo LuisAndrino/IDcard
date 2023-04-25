@@ -15,9 +15,9 @@
   "scripts": {
     "build": "webpack",
     "watch": "webpack -w",
-    "deploy": "gh-pages -d dist",
-    "predeploy": "npm run build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d index.pack.js"
   },
-  "homepage": "https://luisandrino.github.io/IDCARD/"
+  "homepage": "https://luisandrino.github.io/IDCARD"
 
 }
