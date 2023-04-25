@@ -1,8 +1,8 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import Nav from "./scr/nav.js"
-import Main from "./scr/main.js"
-import Footer from "./scr/footer.js"
+import Nav from "./nav.js"
+import Main from "./main.js"
+import Footer from "./footer.js"
 
 
 
