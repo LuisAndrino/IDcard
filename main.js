@@ -7,7 +7,7 @@ export default function main(){
                 <h1>Luis Andrino</h1>
                 <h4 className="role">Software developer</h4>
                 <h6><a href="mailto:luisandrino3@gmail.com">Luisandrino3@gmail.com</a></h6>
-                <button className="btn-link" type="button" ><img className="linkedin" src="linkedin.png" /> <a href="https://www.linkedin.com/in/luisandrino/" >Linkedin</a></button>                
+                <button className="btn-link" type="button" ><img className="linkedin" src="adsalinkedin.png" /> <a href="https://www.linkedin.com/in/luisandrino/" >Linkedin</a></button>                
             
             
                 <h3 className="h3">About me</h3>
